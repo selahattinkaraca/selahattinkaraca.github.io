@@ -7,12 +7,12 @@ baslik{
 }
  yazi {
      text-align: center;
-    color:rgb(219, 197, 171);
+    color:rgb(219, 197, 170);
     font-size:32px;
     
     font-family:Times New Roman;
 }
- body {background-color:grey;}
+ body {background-color:rgb(224, 151, 67);}
 li{
     text-align: left
     color:rgb(219, 197, 171);
