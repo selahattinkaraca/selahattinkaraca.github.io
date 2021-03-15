@@ -1,0 +1,21 @@
+baslik{
+    text-align: center;
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    font-family:Times New Roman;
+}
+ yazi {
+     text-align: center;
+    color:rgb(219, 197, 171);
+    font-size:32px;
+    
+    font-family:Times New Roman;
+}
+ body {background-color:grey;}
+li{
+    text-align: left
+    color:rgb(219, 197, 171);
+    font-size:32px;	
+}
+
