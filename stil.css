@@ -6,7 +6,7 @@ baslik{
     font-family:Times New Roman;
 }
  yazi {
-     text-align: center;
+     text-align: left;
     color:rgb(219, 197, 170);
     font-size:32px;
     
@@ -19,3 +19,7 @@ li{
     font-size:32px;	
 }
 
+ortalama {
+    text-align: center;
+    background-color: red;
+  }
