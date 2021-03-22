@@ -1,4 +1,4 @@
-baslik{
+#baslik{
     text-align: left;
     color:black;
     font-size:32px;
@@ -6,7 +6,7 @@ baslik{
     font-family:Times New Roman;
    
 }
- yazi {
+ #yazi {
     text-align: left;
     color:rgb(71, 62, 50);
     font-size:28px;
