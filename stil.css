@@ -6,6 +6,11 @@
     font-family:Times New Roman;
    
 }
+#article{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 nav{
     background-color: royalblue;
     height: 75px;
@@ -15,6 +20,7 @@ header{
     height: 480px;
 }
 section{
+    flex-grow: 1;
     background-color: gray;
     height: 580px;
     margin: 75px 100px;
