@@ -14,7 +14,7 @@ baslik{
     
     font-family:Times New Roman;
 }
- body {background-color:rgb(224, 151, 67);}
+ body {background-color:rgb(121, 121, 121);}
 
 li{
     text-align: left;
@@ -25,4 +25,90 @@ li{
     text-align: center;
     background-color: rgb(240, 240, 147);
     display:inline-block;
+  }
+  #anadiv
+  {
+      margin-left:auto;
+      margin-right:auto;
+      width:940px;
+      border:1px solid black;
+  }
+  #logo, #link, #icerik, #alt
+  {
+      margin:5px;
+      border:1px solid black;
+      background-color:white; 
+  }
+  #logo
+  {
+      height: 200px;
+      background-repeat: no-repeat;
+      font-size: 10px;
+      font-style: 200;
+      padding: 5px;
+      
+  }
+  #logo img{
+      display: block;
+      margin: 0 auto;
+  }
+  #link 
+  {
+      float: left;
+      width: 200px;
+      min-height: 270px;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      margin-top: 64px;
+  }
+  #link a
+  {
+      display:block;
+      color:white;
+      border:1px solid black;
+      background:black;
+      padding:10px;
+      margin:20px;
+      box-shadow:0 0 5px white;
+      text-decoration:none;
+  }
+  
+  #icerik 
+  {
+      float: left;
+      width: 684px;
+      min-height: 400px;
+      padding: 15px;
+      margin: 5px;
+      background-color:white;
+  }
+  #icerik a
+  {
+      text-decoration: none;
+  
+  }
+  #icerik h1 
+  {
+      text-align: center;
+      font-size: 36px;
+      color: #003;
+      font-weight: bold;
+  }
+  #icerik p 
+  {
+      text-align:justify;
+      color:black;
+  }
+  #alt 
+  {
+      clear:both;
+      text-align:center;
+      
+      padding:5px;
+  }
+  #alt b
+  {
+      color:black;
   }
