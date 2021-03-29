@@ -12,38 +12,16 @@
 
         <div id="anadiv">
             <div id="logo">
-                <script type="text/javascript">
-                    function verSaat()
-                    {
-                        var simdi = new Date();
-                        return simdi.toLocaleTimeString();    // return 23:59:59
-                    }
-                    
-                    function verSaDaSa()
-                    {
-                        var sonuc = new Array(3);
-                        var simdi = new Date();
-                        
-                        sonuc[0] = simdi.getHours();
-                        sonuc[1] = simdi.getMinutes();
-                        sonuc[2] = simdi.getSeconds();
-                        
-                        // Saat, Dakika ve Saniye 10'dan ufaksa önlerine '0' ekleniyor.
-                        for(i = 0;i < 3;i++)
-                            sonuc[i] = sonuc[i] < 10 ? '0' + sonuc[i] : sonuc[i];
-                        
-                        return sonuc;    // return ['23', '59', '59']
-                    }
-                    function saatGoster()
-                    {
-                        saat = verSaat();
-                        document.write("verSaat : " + saat + "<br/>");
-                        
-                        saat = verSaDaSa();
-                        document.write("verSaDaSa : " + saat[0] + "/" + saat[1] + "/" + saat[2] + "<br/>");
-                    }
-                    saatGoster();
-                    </script>
+                <script>
+                    var tarih=new Date();
+                    var yil=tarih.getFullYear();
+                    var ay=tarih.getMonth();
+                    var gun=tarih.getDay();
+                    var saat=tarih.getHours();
+                    var dakika=tarih.getMinutes();
+                    var saniye=tarih.getSeconds();	
+                    document.write(gun+"/"+ay+"/"+yil+"<br>"+saat+":"+dakika+":"+saniye);
+                </script>
                 <img src="https://teknoloji.marmara.edu.tr/_assets/marmara/custom/images/marmara_universitesi_logo.png?v=1.1" alt="Üniversitemiz">
             </div>
           <div id="link">
