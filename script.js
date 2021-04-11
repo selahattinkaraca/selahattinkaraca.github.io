@@ -133,6 +133,7 @@ function myFunction() {
 
 
 function getir(indis) {
+  alert("geldim");
     document.getElementById("anlam_b").innerHTML = "Anlamı:";
     document.getElementById("dil_b").innerHTML = "Dilimize geçtiği köken:";
     document.getElementById("ornek_b").innerHTML = "Örnek Cümle:";
