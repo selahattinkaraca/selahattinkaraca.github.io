@@ -186,6 +186,4 @@ function ara() {
     }
     document.getElementById('myInput').value=" ";
 }
-let random = Math.floor(Math.random() * 29);
-alert(random);
-gel_yeni(random);
+
