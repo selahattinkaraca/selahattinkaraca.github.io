@@ -1,0 +1,76 @@
+body
+{
+	/* sayfanın arka plan rengi tanımlanmıştır. */
+	background-color: #efeeea;
+}
+
+nav
+{
+	/* içindekiler bölümünün arka plan rengi tanımlanmıştır. */
+	background-color: #d6cec2;
+	
+	/* hafif koyu pembe tonlarında, 6 piksel kalınlığında, ikili kenarlıklar tanımlanmıştır.*/
+	border-style:double;
+	border-width:6px;
+	border-color:#f5a6a2;
+	
+	/* kenarlıkların boyutu sınırlandırılmıştır.*/
+	width:280px;
+	
+	/* konum ayarlanır.*/
+	position:relative;
+	left:50px;
+	top:20px;
+}
+
+p
+{	/* paragrafların tamamı siyah renkte ve 15 piksel büyüklüğünde yazılara sahiptir.*/
+	color:black;
+	font-size:15px;
+	/* paragrafların ilk satırlarında 12 piksel büyüklüğünde satır başı bulunur.*/
+	text-indent:12px;
+	/* kelimelerin arasına 5 piksel boşluk verilmiştir.*/
+	word-spacing:5px;
+	/* metinler ortalanmıştır.*/
+	text-align:justify;
+}
+
+/* paragrafların içinde yer alan kalın kelimelerin rengi kırmızıdır.*/
+p strong
+{
+	color:red;
+}
+
+/* başlıklar koyu mavi renkte tanımlanmıştır.*/
+h2
+{
+	color:darkblue;
+}
+
+/* italik sözcükler biraz kalın görüntülenecektir.*/
+em
+{
+	font-weight:bold;
+}
+
+/* linklerin altında yer alan çizgi kaldırılmıştır.*/
+a
+{
+	text-decoration:none;
+}
+
+/* aşağıda yer alan ve kenar deseninin ortalanma işleminin yapıldığı css kodları, w3schools'tan alınmıştır.*/
+.kenar_deseni
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* logo resimleri sola yaslanmıştır.*/
+img.logo_resimleri
+{
+	float:left; 
+	margin:5px;
+}
