@@ -1,0 +1,142 @@
+h1
+{
+	/* geliştirici ekibi yazısı ortalanmıştır.*/
+	text-align:center;
+	position:relative;
+	top:10px;
+}
+
+h2
+{
+	/*geliştiricilerin isimlerine ait css işlemleri tanımlanmıştır.*/
+	color: #b22222;
+	
+	position:relative;
+	left:140px;
+}
+
+p
+{	/* paragrafların tamamı siyah renkte ve 15 piksel büyüklüğünde yazılara sahiptir.*/
+	color:black;
+	font-size:15px;
+	/* paragrafların ilk satırlarında 12 piksel büyüklüğünde satır başı bulunur.*/
+	text-indent:12px;
+	/* kelimelerin arasına 5 piksel boşluk verilmiştir.*/
+	word-spacing:5px;
+	/* metinler ortalanmıştır.*/
+	text-align:justify;
+}
+
+#tanitim_selahattin
+{
+	/* tanıtım bölümünün arka plan rengi tanımlanmıştır. */
+	background-color: #fffff0;
+	
+	/* hafif koyu pembe tonlarında, 6 piksel kalınlığında, ikili kenarlıklar tanımlanmıştır.*/
+	border-style:double;
+	border-width:6px;
+	border-color:#778899;
+	
+	/* kenarlıkların boyutu sınırlandırılmıştır.*/
+	width:1000px;
+	height:420px;
+	
+	/* konumlar ayarlanmıştır.*/
+	position:relative;
+	left:140px;
+}
+
+/* selahatin yazılarının konumu ayarlanır.*/
+#selahattin_div
+{
+	position:relative;
+	left:150px;
+	top:10px;
+}
+
+/* selahattin paragrafının yapısı ayarlanır.*/
+#selahattin_paragraf
+{
+	text-align:center;
+	width:800px;
+}
+
+/**************************************/
+
+#tanitim_serbay
+{
+	/* tanıtım bölümünün arka plan rengi tanımlanmıştır. */
+	background-color: #fffff0;
+	
+	/* hafif koyu pembe tonlarında, 6 piksel kalınlığında, ikili kenarlıklar tanımlanmıştır.*/
+	border-style:double;
+	border-width:6px;
+	border-color:#778899;
+	
+	/* kenarlıkların boyutu sınırlandırılmıştır.*/
+	width:1000px;
+	height:400px;
+	
+	/* konumlar ayarlanmıştır.*/
+	position:relative;
+	left:140px;
+}
+
+/* serbay yazılarının konumu ayarlanır.*/
+#serbay_div
+{
+	position:relative;
+	left:150px;
+	top:10px;
+}
+
+/* serbay paragrafının yapısı ayarlanır.*/
+#serbay_paragraf
+{
+	text-align:center;
+	width:800px;
+}
+
+/**************************************/
+
+#tanitim_ugur
+{
+	/* tanıtım bölümünün arka plan rengi tanımlanmıştır. */
+	background-color: #fffff0;
+	
+	/* hafif koyu pembe tonlarında, 6 piksel kalınlığında, ikili kenarlıklar tanımlanmıştır.*/
+	border-style:double;
+	border-width:6px;
+	border-color:#778899;
+	
+	/* kenarlıkların boyutu sınırlandırılmıştır.*/
+	width:1000px;
+	height:370px;
+	
+	/* konumlar ayarlanmıştır.*/
+	position:relative;
+	left:140px;
+}
+
+/* ugur yazılarının konumu ayarlanır.*/
+#ugur_div
+{
+	position:relative;
+	left:120px;
+	top:10px;
+}
+
+/* ugur paragrafının yapısı ayarlanır.*/
+#ugur_paragraf
+{
+	text-align:center;
+	width:800px;
+}
+
+/* fotoğraflar sola yaslanmıştır.*/
+img.foto
+{
+	float:left; 
+	margin:10px;
+	
+}
