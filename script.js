@@ -142,6 +142,17 @@ function getir(indis) {
     document.getElementById("dil").innerHTML = hangi_dilden_gecti[indis];
     document.getElementById("ornek").innerHTML = ornek[indis];
 }
+function gek_yeni(indis) {
+  alert("geldim");
+    document.getElementById("anlam_b").innerHTML = "Anlamı:";
+    document.getElementById("dil_b").innerHTML = "Dilimize geçtiği köken:";
+    document.getElementById("ornek_b").innerHTML = "Örnek Cümle:";
+    document.getElementById("kelime").innerHTML = kelimeler[indis];
+    document.getElementById("anlam").innerHTML = anlamlar[indis];
+    document.getElementById("dil").innerHTML = hangi_dilden_gecti[indis];
+    document.getElementById("ornek").innerHTML = ornek[indis];
+}
+
 
 
 function ara() {
