@@ -142,7 +142,7 @@ function getir(indis) {
     document.getElementById("dil").innerHTML = hangi_dilden_gecti[indis];
     document.getElementById("ornek").innerHTML = ornek[indis];
 }
-function gek_yeni(indis) {
+function gel_yeni(indis) {
   alert("geldim");
     document.getElementById("anlam_b").innerHTML = "Anlamı:";
     document.getElementById("dil_b").innerHTML = "Dilimize geçtiği köken:";
